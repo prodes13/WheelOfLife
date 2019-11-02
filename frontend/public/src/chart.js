@@ -7,11 +7,6 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
     
         },
         options: {
-            // elements: {
-            //     point: {
-            //         radius: 0
-            //     }
-            // },
             scale: {
                 pointLabels: {
                     fontSize: 12
@@ -23,9 +18,14 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
                     suggestedMin: 0,
                     suggestedMax: 5
                 }
-            }, 
+            },
+            responsive: true,
+            maintainAspectRatio: true,
+            title: {
+              display: false
+            },
             legend: {
-                display: true
+              display: true,
             }
         }
     }); 
