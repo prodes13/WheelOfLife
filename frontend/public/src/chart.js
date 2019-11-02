@@ -4,15 +4,11 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
         data: {
             labels: datasetsLabels,
             datasets: datasetsValues
-    
         },
         options: {
             scale: {
-                pointLabels: {
-                    fontSize: 12
-                },
                 angleLines: {
-                    display: true
+                    display: false
                 },
                 ticks: {
                     suggestedMin: 0,
