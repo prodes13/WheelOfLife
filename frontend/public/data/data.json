@@ -1,9 +1,16 @@
 {
     "questions": {
-        "health": "SVG Viewer",
-        "1": "SVG Viewer",
-        "2": "SVG Viewer",
-        "3": "SVG Viewer",
-        "comment": "https://json.org/example.html"
+        "health": {
+            "1": "SVG Viewer",
+            "2": "SVG Viewer",
+            "3": "SVG Viewer",
+            "comment": "https://json.org/example.html"
+        },
+        "relationships": {
+            "1": "SVG Viewer",
+            "2": "SVG Viewer",
+            "3": "SVG Viewer",
+            "comment": "https://json.org/example.html"
+        }
     }   
 }
