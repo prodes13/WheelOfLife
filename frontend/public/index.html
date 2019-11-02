@@ -5,11 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
     <title>Wheel Of Life</title>
 </head>
 <body>
+    	<nav class="navbar is-white topNav">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <h3>Wheel of life</h3>
+                        </a>
+                        <div class="navbar-burger burger" data-target="topNav">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div id="topNav" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href="cover.html">Home</a>
+                            <a class="navbar-item" href="landing.html">Landing</a>
+                            <a class="navbar-item" href="blog.html">Blog</a>
+                        </div>
+                        <div class="navbar-end">
+                            <div class="navbar-item">
+                                <div class="field is-grouped">
+                                    <p class="control">
+                                        <a class="button is-small">
+                                            <span class="icon">
+                                                <i class="fa fa-user-plus"></i>
+                                            </span>
+                                            <span>
+                                                Register
+                                            </span>
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-small is-info is-outlined">
+                                            <span class="icon">
+                                                <i class="fa fa-user"></i>
+                                            </span>
+                                            <span>Login</span>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!---
+            
+            start
+            -->
+
+            <div class="column is-12">
+                    <div class="content">
+                  <h5 class="title">Please answer this: </h5>
+                      <div class="box">
+                        <h6 id="question" class="title">The way you feel yourself</h6>
+                        <button id="answer1" class="button is-primary">Very bad</button>
+                        <button id="answer2" class="button is-primary">Bad</button>
+                        <button id="answer3" class="button is-primary">Neutral</button>
+                        <button id="answer4" class="button is-primary">Good</button>
+                        <button id="answer5" class="button is-primary">Very good</button>
+                    </div>
+            </div>
+            <!-- end -->
+            <div class="control">
+                    <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Next question</button>
+            </div>
+
     <section class="hero is-fullheight">
         <section class="hero-body">
             <div class="container" style="max-width: 800px;">
@@ -19,7 +88,7 @@
     </section>
     
 
-
+    <script src="src/bulma.js"></script>
     <script src="src/app.js" type="module"></script>
 </body>
 </html>
