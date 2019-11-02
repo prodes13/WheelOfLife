@@ -7,13 +7,18 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
     
         },
         options: {
+            elements: {
+                point: {
+                    radius: 0
+                }
+            },
             scale: {
                 angleLines: {
                     display: true
                 },
                 ticks: {
                     suggestedMin: 0,
-                    suggestedMax: 10
+                    suggestedMax: 5
                 }
             }
         }
