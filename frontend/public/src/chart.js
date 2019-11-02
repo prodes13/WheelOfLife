@@ -13,6 +13,9 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
                 }
             },
             scale: {
+                pointLabels: {
+                    fontSize: 12
+                },
                 angleLines: {
                     display: true
                 },
@@ -20,6 +23,9 @@ function getChart(ctx, datasetsLabels, datasetsValues) {
                     suggestedMin: 0,
                     suggestedMax: 5
                 }
+            }, 
+            legend: {
+                display: false
             }
         }
     }); 
