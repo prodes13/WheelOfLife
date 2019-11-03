@@ -2,7 +2,7 @@ import {getChart} from './chart.js';
 import {datasetsLabels, setValues} from './chartDimensions.js';
 import {showQuestions} from './showQuestions.js';
 
-var done = false;
+var done = true;
 
 // canvas to draw
 var ctx = document.getElementById("myChart");
