@@ -1,8 +1,16 @@
 import {getChart} from './chart.js';
 import {datasetsLabels, setValues} from './chartDimensions.js';
 import {showQuestions} from './showQuestions.js';
+import {increaseX} from './increaseX.js';
 
 var done = true;
+
+var x = 0;
+console.log('x starts at ', x);
+
+x = increaseX(x);
+console.log('x is now: ', x);
+
 
 // canvas to draw
 var ctx = document.getElementById("myChart");

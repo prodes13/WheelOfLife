@@ -25,7 +25,6 @@ function buildQuiz(myQuestions, num) {
   
 export function showQuestions(data) {
     let category = 0;
-
     buildQuiz(data[category].questions, currentQuestion);
 
     previousButton.addEventListener("click", function() {
