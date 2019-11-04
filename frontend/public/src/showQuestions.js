@@ -1,3 +1,5 @@
+var topic = document.getElementById('topic');
+var message = document.getElementById('message');
 var question = document.getElementById('question');
 var answers = document.getElementById('answers');
 var currentQuestion = 0;
@@ -8,6 +10,8 @@ const nextButton = document.getElementById("next");
 
 function buildQuiz(myQuestions, num) {
     // generating question with answers
+    topic.innerHTML = myQuestions[num].topic;
+    message.innerHTML = myQuestions[num].message;
     question.innerHTML = myQuestions[num].question;
     answers.innerHTML = '';
     for (var i in Object.values(myQuestions[num].answers)) {
