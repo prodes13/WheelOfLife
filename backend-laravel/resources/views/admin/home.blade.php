@@ -3,14 +3,12 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        @include('admin._nav')
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    @if(session('error'))
-                        <div class="alert alert-danger">{{ session('error') }}</div>
-                    @endif
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -18,6 +16,7 @@
                     @endif
 
                     You are logged in!
+                    <div class="alert alert-primary">admin</div>
                 </div>
             </div>
         </div>
