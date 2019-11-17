@@ -1,30 +1,30 @@
-import {getChart} from './chart.js';
-import {datasetsLabels, setValues} from './chartDimensions.js';
-import {showQuestions} from './showQuestions.js';
-import {increaseX} from './increaseX.js';
+$(function() {
+    var quiz = new Quiz();
 
-var done = true;
+    init();
 
-var x = 0;
-console.log('x starts at ', x);
+    function init(){
+        initEvent();
+        // fetching data from a fake server
+        fetch('data/olddata.json')
+            .then(response => response.json())
+            .then(function(data) {
+                quiz.init(data.quiz);
+            });
+    }
 
-x = increaseX(x);
-console.log('x is now: ', x);
+    function initEvent() {
+        $(document).on("click", "#previous", previousHandler);
 
+        $(document).on("click", "#next", nextHandler);
+    }
 
-// canvas to draw
-var ctx = document.getElementById("myChart");
+    function previousHandler() {
+        quiz.previous();
+    }
 
-// fetching data from a fake server
-fetch('../data/data.json')
-    .then(response => response.json())
-    .then(data => showQuestions(data.query));
+    function nextHandler() {
+        quiz.next();
+    }
 
-// setting values for different fields
-var datasetsValues = setValues([4,6,3,4,5,6,7,5]);
-
-// drawing the chart
-if(done) {
-    var resultsChart = getChart(ctx, datasetsLabels, datasetsValues);
-}
-
+});
