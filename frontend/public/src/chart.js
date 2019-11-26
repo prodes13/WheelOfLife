@@ -1,4 +1,4 @@
-var datasetsLabels = ['Health', 'Relationships', 'Environment', 'Career', 'Money', 'Personal growth', 'Brightness of Life', 'Spiritual Life'];
+
 function setValues(results) {
     return [{
         data: [...results],

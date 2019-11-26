@@ -1,0 +1,170 @@
+{
+  "query": [
+    {
+      "questions": [
+        {
+          "topicId": "#1",
+          "topicQuestionNr": 1,
+          "topic": "SĂNĂTATE ȘI ENERGIE",
+          "question": "Cât de fericit te simți cu starea generala de sănătate și de bună-dispoziție pe care le ai acum,  la acest moment?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#1",
+          "topicQuestionNr": 2,
+          "topic": "SĂNĂTATE ȘI ENERGIE",
+          "question": "Cum apreciezi nivelul de energie pe care  îl ai pe parcursul unei zile?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#1",
+          "topicQuestionNr": 3,
+          "topic": "SĂNĂTATE ȘI ENERGIE",
+          "question": "Dacă ar fi să iți dai singur o notă raportată la mișcarea fizică efectuată zilnic vs greutatea corporală pe care o ai, care ar fi acea nota?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#2",
+          "topicQuestionNr": 1,
+          "topic": "RELAȚIILE CU FAMILIA ȘI PRIETENII",
+          "question": "Cum ai descrie calitatea relațiilor tale sentimentale -  anterioare și actuale?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#2",
+          "topicQuestionNr": 2,
+          "topic": "RELAȚIILE CU FAMILIA ȘI PRIETENII",
+          "question": "Cum apreciezi calitatea relației și întreținerea acesteia cu membrii familiei?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#2",
+          "topicQuestionNr": 3,
+          "topic": "RELAȚIILE CU FAMILIA ȘI PRIETENII",
+          "question": "Cum ai aprecia calitatea relațiilor cu prietenii, colegii, partenerii de afaceri de până acum?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#3",
+          "topicQuestionNr": 1,
+          "topic": "MANAGEMENTUL TIMPULUI, HOBBY-URI ȘI DISTRACȚII",
+          "question": "Cât de eficient și productiv ești în stabilirea și îndeplinirea sarcinilor și obiectivelor zilnice?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#3",
+          "topicQuestionNr": 2,
+          "topic": "MANAGEMENTUL TIMPULUI, HOBBY-URI ȘI DISTRACȚII",
+          "question": "Cum te simți, vis-a-vis de timpul rămas la dispoziție pentru „alimentarea” pasiunii tale și lucrul la obiectivele personale, altele decât de sarcinile zilnice?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        },
+        {
+          "topicId": "#3",
+          "topicQuestionNr": 3,
+          "topic": "MANAGEMENTUL TIMPULUI, HOBBY-URI ȘI DISTRACȚII",
+          "question": "Cum ai aprecia rata de îndeplinire a sarcinilor de tip multi-tasking și îndeplinirea sarcinilor personale și profesionale?",
+          "answers": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+          }
+        }
+      ]
+    }
+  ]
+}
